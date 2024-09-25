@@ -1,4 +1,3 @@
-// задание 1
 
 let salaries = {
     John: 100,
@@ -20,7 +19,6 @@ console.log('Сумма зарплат равна: ' +  sumSalaries(salaries) );
 
 
 
-// задание 2
 
 function multiplyNumeric(obj) {
     for (let bazm in obj) {
@@ -40,8 +38,6 @@ let menu = {
 console.log(menu);
 console.log(multiplyNumeric(menu));
 
-
-//задание 3
 
 let calculator = {
     read() {
