@@ -1,4 +1,4 @@
-
+// задание 1
 let salaries = {
     John: 100,
     Ann: 160,
@@ -19,7 +19,7 @@ console.log('Сумма зарплат равна: ' +  sumSalaries(salaries));
 
 
 
-
+// задание 2
 function multiplyNumeric(obj) {
     for (let bazm in obj) {
         if (typeof obj[bazm] == 'number') {
@@ -38,7 +38,7 @@ let menu = {
 console.log(menu);
 console.log(multiplyNumeric(menu));
 
-
+// задание 3
 let calculator = {
     read() {
         this.a = +prompt('Введите первое число', 0);
