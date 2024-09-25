@@ -3,7 +3,7 @@ let salaries = {
     John: 100,
     Ann: 160,
     Pate: 130
-}
+};
 
 function sumSalaries(salaries) {
     let sum = 0;
@@ -15,16 +15,16 @@ function sumSalaries(salaries) {
     return sum;
 }
 
-console.log('Сумма зарплат равна: ' +  sumSalaries(salaries) ); 
+console.log('Сумма зарплат равна: ' +  sumSalaries(salaries)); 
 
 
 
 
 function multiplyNumeric(obj) {
     for (let bazm in obj) {
-    if (typeof obj[bazm] == 'number') {
-        obj[bazm] *= 2;
-    }
+        if (typeof obj[bazm] == 'number') {
+            obj[bazm] *= 2;
+        }
     }
     return JSON.stringify(obj);
 }
