@@ -41,7 +41,7 @@ console.log(menu);
 console.log(multiplyNumeric(menu));
 
 
-задание 3
+//задание 3
 
 let calculator = {
     read() {
